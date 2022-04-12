@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../font/vazir font/Vazir-Regular-FD.woff"); }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "vazir";
+  background: #2c2c2c; }
+
+h1 {
+  color: #eeeeeee5;
+  cursor: default; }
+
+.main-place {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between; }
+
+.delete-all-button {
+  width: 50px;
+  min-height: 300px;
+  background: rgba(255, 1, 1, 0.158);
+  cursor: pointer;
+  transition: .7s; }
+  .delete-all-button:hover {
+    background: rgba(255, 1, 1, 0.411); }
+
+.left-delete-button {
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px; }
+
+.right-delete-button {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px; }
+
+.area-element {
+  width: 45%;
+  height: 100%;
+  height: auto;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center; }
+
+.list-area {
+  width: 90%;
+  min-height: 300px;
+  border: 2px solid #eeeeeee5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between; }
+
+.input-place {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center; }
+
+.input-area {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap; }
+
+.input-area-input {
+  width: 30%;
+  height: 35px;
+  padding: 1rem;
+  margin: .4rem;
+  font-size: .9rem;
+  border-radius: 20px;
+  outline: none;
+  border: none; }
+
+.button-accept {
+  width: 15%;
+  height: 30px;
+  padding: .4rem;
+  margin: .2rem;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer; }
+
+.left-delete-button-place {
+  width: 10%;
+  height: 100%; }
+
+.active-list {
+  width: 89%; }
+
+li {
+  color: #eeeeeee5; }
+
+#build-li {
+  padding: .5rem;
+  margin: .5rem;
+  border-bottom: 1px solid rgba(58, 58, 58, 0.479); }
+
+#text-task {
+  cursor: default;
+  margin-right: .5rem;
+  transition: .3s; }
+  #text-task:hover {
+    color: #fff;
+    font-size: 17px; }
+
+#delete-button {
+  cursor: pointer;
+  font: inherit;
+  margin-right: .5rem;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background: #fd2c2c;
+  border-radius: 5px;
+  color: white;
+  padding: .1rem .4rem;
+  transition: .6s; }
+  #delete-button:hover {
+    background: #c20000; }
+
+#done-button {
+  cursor: pointer;
+  font: inherit;
+  margin-right: .5rem;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #64ff34;
+  color: white;
+  padding: .1rem .4rem;
+  transition: .6s; }
+  #done-button:hover {
+    background: #2cbe00; }
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center; }
+
+#retrun-button {
+  cursor: pointer;
+  font: inherit;
+  margin-left: .5rem;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #64ff34;
+  color: white;
+  padding: .1rem .4rem;
+  transition: .4s; }
+  #retrun-button:hover {
+    background: #2cbe00; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,55 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="../css/app css/main.css">
+        <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+        <title>TODO app</title>
+    </head>
+    <body>
+        
+        <div class="main-place">
+            <div class="area-element">
+                <h1 class="active-list-title">active list show for you...</h1>
+    
+                <div class="list-area left-list-area">
+                    <div class="left-delete-button-place">
+                        <div class="delete-all-button left-delete-button" title="DELETE ALL"></div>
+                    </div>
+                    
+                    <div class="active-list">
+                        <ul class="active-list-li"></ul>
+                    </div>
+                </div>
+            </div>
+    
+    
+    
+            <div class="area-element">
+                <h1 class="delete-list-title">done list show for you...</h1>
+    
+                <div class="list-area right-list-area">
+                    <div class="delete-list">
+                        <ul class="done-list-li"></ul>
+                    </div>
+                    <div class="delete-all-button right-delete-button" title="DELETE ALL"></div>
+                </div>
+            </div>
+        </div>
+        <div class="input-place">
+            <div class="input-area">
+                <input type="text" class="search-input input-area-input" placeholder="search...">
+                <form class="add-task">
+                    <input type="text" class="add-task-input input-area-input" name="addTaskInput" placeholder="add task...">
+                    <button class="button-accept">accept</button>
+                </form>
+            </div>
+        </div>
+    </body>
+    <script src="../js/uuid.js"></script>
+    <script src="../js/app js/functions.js"></script>
+    <script src="../js/app js/render-functions.js"></script>
+    <script src="../js/app js/app.js"></script>
+    <script src="../js/app jquery/jquery.js"></script>
+    <script src="../js/app jquery/app-view-control.js"></script>
+</html>

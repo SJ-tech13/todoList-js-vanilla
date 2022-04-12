@@ -1,0 +1,99 @@
+@import "./variables";
+
+@font-face {
+    font-family: "vazir";
+    src: url("../font/vazir font/Vazir-Regular-FD.woff");
+}
+
+body {
+    font-family: "vazir";
+    background-color: $primary-color;
+}
+
+main {
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    color: $secondery-color;
+}
+
+.inputs-area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+        input {
+            width:350px;
+            height:50px;
+            margin-bottom:1rem;
+            outline: none;
+            border-radius:20px;
+            border: none;
+            font: inherit;
+            font-size: 20px;
+            background-color: $secondery-color;
+            padding:.5rem 1rem;
+            transition:.2s;
+                &:focus {
+                    background-color: #fff;
+                }
+                &:hover {
+                    border:3px solid #fff;
+                    box-shadow:0 0 5px #fff;
+                }
+        }
+
+        button {
+            width:250px;
+            height:40px;
+            outline:none;
+            border-radius: 10px;
+            margin-bottom:.5rem;
+            border: none;
+            cursor: pointer;
+            font: inherit;
+        }
+}
+
+#delete-btn {
+    background: rgb(253, 44, 44);
+    transition:.2s;
+        &:hover {
+            background:rgb(194, 0, 0);
+            box-shadow:0 0 7px rgb(194, 0, 0);
+            color: white;
+        }
+}
+
+#done-btn {
+    background: rgb(100, 255, 52);
+    transition:.2s;
+        &:hover {
+            background:rgb(44, 190, 0);
+            box-shadow:0 0 7px rgb(44, 190, 0);
+            color: white;
+        }
+}
+
+.link-back {
+    color: #1565c0;
+    font-size:20px;
+    text-decoration: none;
+    transition:.3s;
+        &:hover {
+            color: #0857b1;
+            font-weight: bold;
+        }
+}
