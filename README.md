@@ -4,7 +4,7 @@ I Wanna Tell You, What Is Features Exist In This Project📄
 We Have Got Two Main Parts In Project, Active List & Done List.
 
 Before I Explain About Main Parts, I Wanna Tell You About Inputs👇
-Whe Have Two inputs In There.
+We Have Two inputs In There.
 Search Input 👉 You Can Search Task From All Lists (Active List & Done List).
 Add Task Input 👉 Type Your Task Name And Click Accept Button, You Can Set Description Or Not.
 

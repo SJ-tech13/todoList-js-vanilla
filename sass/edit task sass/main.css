@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../font/vazir font/Vazir-Regular-FD.woff");
+}
+
+body {
+  font-family: "vazir";
+  background-color: #2c2c2c;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-title {
+  color: #eeeeeee5;
+}
+
+.inputs-area {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inputs-area input {
+  width: 350px;
+  height: 50px;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  font: inherit;
+  font-size: 20px;
+  background-color: #eeeeeee5;
+  padding: .5rem 1rem;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.inputs-area input:focus {
+  background-color: #fff;
+}
+
+.inputs-area input:hover {
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0 0 5px #fff;
+          box-shadow: 0 0 5px #fff;
+}
+
+.inputs-area button {
+  width: 250px;
+  height: 40px;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: .5rem;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+#delete-btn {
+  background: #fd2c2c;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#delete-btn:hover {
+  background: #c20000;
+  -webkit-box-shadow: 0 0 7px #c20000;
+          box-shadow: 0 0 7px #c20000;
+  color: white;
+}
+
+#done-btn {
+  background: #64ff34;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#done-btn:hover {
+  background: #2cbe00;
+  -webkit-box-shadow: 0 0 7px #2cbe00;
+          box-shadow: 0 0 7px #2cbe00;
+  color: white;
+}
+
+.link-back {
+  color: #1565c0;
+  font-size: 20px;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.link-back:hover {
+  color: #0857b1;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,4 +1,4 @@
-@import "variable.scss";
+@import "./variable";
 
 
 @font-face {
@@ -53,7 +53,6 @@ h1 {
     width: 45%;
     height: 100%;
     height:auto;
-    margin:2rem;
     display: flex;
     justify-content: center;
     flex-flow: column nowrap;
@@ -76,7 +75,7 @@ h1 {
 }
 
 .input-area {
-    width:60%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +83,7 @@ h1 {
 }
 
 .input-area-input {
-    width:30%;
+    width: 35%;
     height:35px;
     padding:1rem;
     margin: .4rem;
@@ -151,6 +150,10 @@ li {
         }
 }
 
+.input-area {
+    font-size: 2rem;
+}
+
 #done-button {
     cursor: pointer;
     font: inherit;
@@ -191,4 +194,15 @@ form {
         &:hover {
             background:rgb(44, 190, 0);
         }
+}
+
+@media only screen and (max-width: 870px) {
+    .main-place {
+      width: 100%;
+      display: block;
+    }
+
+    .area-element {
+      width: 100%;
+    }
 }
