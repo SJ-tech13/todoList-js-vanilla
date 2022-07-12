@@ -49,14 +49,14 @@ const checkSameTask = (list, text) => {
 }
 
     //add done task from active task function
-const addDoneTask = (id) => {
+const addDoneTask = (todoList, doneTodoList, id, editPage) => {
     const taskFinded = todoList.find((item) => {
         return item.id == id
     })
 
     if (checkSameTask(doneTodoList, taskFinded.text) == -1) {
         doneTodoList.push(taskFinded)
-        renderDoneTodoList()
+        !editPage ? renderDoneTodoList() : null
     }else {
         alert("please don't add same task...")
         return

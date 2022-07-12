@@ -1,40 +1,48 @@
 @font-face {
   font-family: "vazir";
-  src: url("../font/vazir font/Vazir-Regular-FD.woff"); }
+  src: url("../font/vazir font/Vazir-Regular-FD.woff");
+}
 body {
   margin: 0;
   padding: 0;
   font-family: "vazir";
-  background: #2c2c2c; }
+  background: rgb(44, 44, 44);
+}
 
 h1 {
-  color: #eeeeeee5;
-  cursor: default; }
+  color: rgba(238, 238, 238, 0.8980392157);
+  cursor: default;
+}
 
 .main-place {
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .delete-all-button {
   width: 50px;
   min-height: 300px;
   background: rgba(255, 1, 1, 0.158);
   cursor: pointer;
-  transition: .7s; }
-  .delete-all-button:hover {
-    background: rgba(255, 1, 1, 0.411); }
+  transition: 0.7s;
+}
+.delete-all-button:hover {
+  background: rgba(255, 1, 1, 0.411);
+}
 
 .left-delete-button {
   width: 100%;
   height: 100%;
   border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px; }
+  border-top-left-radius: 10px;
+}
 
 .right-delete-button {
   border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px; }
+  border-top-right-radius: 10px;
+}
 
 .area-element {
   width: 45%;
@@ -43,136 +51,152 @@ h1 {
   display: flex;
   justify-content: center;
   flex-flow: column nowrap;
-  align-items: center; }
+  align-items: center;
+}
 
 .list-area {
   width: 90%;
   min-height: 300px;
-  border: 2px solid #eeeeeee5;
+  border: 2px solid rgba(238, 238, 238, 0.8980392157);
   border-radius: 10px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .input-place {
   margin-top: 1rem;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .input-area {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column nowrap; }
+  flex-flow: column nowrap;
+}
 
 .input-area-input {
   width: 35%;
   height: 35px;
   padding: 1rem;
-  margin: .4rem;
-  font-size: .9rem;
+  margin: 0.4rem;
+  font-size: 0.9rem;
   border-radius: 20px;
   outline: none;
-  border: none; }
+  border: none;
+}
 
 .button-accept {
   width: 15%;
   height: 30px;
-  padding: .4rem;
-  margin: .2rem;
+  padding: 0.4rem;
+  margin: 0.2rem;
   border-radius: 20px;
   outline: none;
   border: none;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .left-delete-button-place {
   width: 10%;
-  height: 100%; }
+  height: 100%;
+}
 
 .active-list {
-  width: 89%; }
+  width: 89%;
+}
 
 li {
-  color: #eeeeeee5; }
+  color: rgba(238, 238, 238, 0.8980392157);
+}
 
 #build-li {
-  padding: .5rem;
-  margin: .5rem;
-  border-bottom: 1px solid rgba(58, 58, 58, 0.479); }
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-bottom: 1px solid rgba(58, 58, 58, 0.479);
+}
 
 #text-task {
   cursor: default;
-  margin-right: .5rem;
-  transition: .3s; }
-  #text-task:hover {
-    color: #fff;
-    font-size: 17px; }
+  margin-right: 0.5rem;
+  transition: 0.3s;
+}
+#text-task:hover {
+  color: #fff;
+  font-size: 17px;
+}
 
 #delete-button {
   cursor: pointer;
   font: inherit;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   font-size: 15px;
   border: none;
   outline: none;
-  background: #fd2c2c;
+  background: rgb(253, 44, 44);
   border-radius: 5px;
   color: white;
-  padding: .1rem .4rem;
-  transition: .6s; }
-  #delete-button:hover {
-    background: #c20000; }
-  
-  .input-area {
-    font-size: 2rem;
-  }
+  padding: 0.1rem 0.4rem;
+  transition: 0.6s;
+}
+#delete-button:hover {
+  background: rgb(194, 0, 0);
+}
+
+.input-area {
+  font-size: 2rem;
+}
 
 #done-button {
   cursor: pointer;
   font: inherit;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   font-size: 15px;
   border: none;
   outline: none;
   border-radius: 5px;
-  background: #64ff34;
+  background: rgb(100, 255, 52);
   color: white;
-  padding: .1rem .4rem;
-  transition: .6s; }
-  #done-button:hover {
-    background: #2cbe00; }
+  padding: 0.1rem 0.4rem;
+  transition: 0.6s;
+}
+#done-button:hover {
+  background: rgb(44, 190, 0);
+}
 
 form {
   display: flex;
   flex-flow: column nowrap;
   width: 100%;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 #retrun-button {
   cursor: pointer;
   font: inherit;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   font-size: 15px;
   border: none;
   outline: none;
   border-radius: 5px;
-  background-color: #64ff34;
+  background-color: rgb(100, 255, 52);
   color: white;
-  padding: .1rem .4rem;
-  transition: .4s; }
-  #retrun-button:hover {
-    background: #2cbe00; }
+  padding: 0.1rem 0.4rem;
+  transition: 0.4s;
+}
+#retrun-button:hover {
+  background: rgb(44, 190, 0);
+}
 
-    @media only screen and (max-width: 870px) {
-      .main-place {
-        width: 100%;
-        display: block;
-      }
-
-      .area-element {
-        width: 100%;
-      }
-    }
-
-/*# sourceMappingURL=main.css.map */
+@media only screen and (max-width: 870px) {
+  .main-place {
+    width: 100%;
+    display: block;
+  }
+  .area-element {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -57,6 +57,13 @@ const doneDeleteBTN = () => {
     location.assign("./app.html")
 }
 
+const addTaskToDoneList = () => {
+    addDoneTask(todoListTP, doneTodoListTP, taskFinded.id, true)
+    activeDeleteBTN()
+    saveList(todoListTP)
+    saveDoneList(doneTodoListTP)
+}
+
 const renderDeleteButton = (task) => {
     deleteButton.addEventListener("click", () => {
         if (task == "active") {
@@ -69,5 +76,12 @@ const renderDeleteButton = (task) => {
             alert("not in range!")
             console.log("not in range");
         }
+    })
+}
+
+const renderDoneTask = () => {
+    doneButton.addEventListener("click", () => {
+        addTaskToDoneList()
+        location.assign("./app.html")
     })
 }

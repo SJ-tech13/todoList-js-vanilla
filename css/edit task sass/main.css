@@ -1,9 +1,11 @@
 @font-face {
   font-family: "vazir";
-  src: url("../font/vazir font/Vazir-Regular-FD.woff"); }
+  src: url("../font/vazir font/Vazir-Regular-FD.woff");
+}
 body {
   font-family: "vazir";
-  background-color: #2c2c2c; }
+  background-color: rgb(44, 44, 44);
+}
 
 main {
   width: 100%;
@@ -15,10 +17,12 @@ main {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .main-title {
-  color: #eeeeeee5; }
+  color: rgba(238, 238, 238, 0.8980392157);
+}
 
 .inputs-area {
   width: 100%;
@@ -26,57 +30,76 @@ main {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  align-items: center; }
-  .inputs-area input {
-    width: 350px;
-    height: 50px;
-    margin-bottom: 1rem;
-    outline: none;
-    border-radius: 20px;
-    border: none;
-    font: inherit;
-    font-size: 20px;
-    background-color: #eeeeeee5;
-    padding: .5rem 1rem;
-    transition: .2s; }
-    .inputs-area input:focus {
-      background-color: #fff; }
-    .inputs-area input:hover {
-      border: 3px solid #fff;
-      box-shadow: 0 0 5px #fff; }
-  .inputs-area button {
-    width: 250px;
-    height: 40px;
-    outline: none;
-    border-radius: 10px;
-    margin-bottom: .5rem;
-    border: none;
-    cursor: pointer;
-    font: inherit; }
+  align-items: center;
+}
+.inputs-area input {
+  width: 350px;
+  height: 50px;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  font: inherit;
+  font-size: 20px;
+  background-color: rgba(238, 238, 238, 0.8980392157);
+  padding: 0.5rem 1rem;
+  transition: 0.2s;
+}
+.inputs-area input:focus {
+  background-color: #fff;
+}
+.inputs-area input:hover {
+  border: 3px solid #fff;
+  box-shadow: 0 0 5px #fff;
+}
+.inputs-area button {
+  width: 250px;
+  height: 40px;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}
 
 #delete-btn {
-  background: #fd2c2c;
-  transition: .2s; }
-  #delete-btn:hover {
-    background: #c20000;
-    box-shadow: 0 0 7px #c20000;
-    color: white; }
+  background: rgb(253, 44, 44);
+  transition: 0.2s;
+}
+#delete-btn:hover {
+  background: rgb(194, 0, 0);
+  box-shadow: 0 0 7px rgb(194, 0, 0);
+  color: white;
+}
+
+#edit-btn {
+  background: #1565c0;
+  transition: 0.2;
+}
+#edit-btn:hover {
+  background: #04458f;
+  box-shadow: 0 0 7px #04458f;
+  color: white;
+}
 
 #done-btn {
-  background: #64ff34;
-  transition: .2s; }
-  #done-btn:hover {
-    background: #2cbe00;
-    box-shadow: 0 0 7px #2cbe00;
-    color: white; }
+  background: rgb(100, 255, 52);
+  transition: 0.2s;
+}
+#done-btn:hover {
+  background: rgb(44, 190, 0);
+  box-shadow: 0 0 7px rgb(44, 190, 0);
+  color: white;
+}
 
 .link-back {
   color: #1565c0;
   font-size: 20px;
   text-decoration: none;
-  transition: .3s; }
-  .link-back:hover {
-    color: #0857b1;
-    font-weight: bold; }
-
-/*# sourceMappingURL=main.css.map */
+  transition: 0.3s;
+}
+.link-back:hover {
+  color: #0857b1;
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */

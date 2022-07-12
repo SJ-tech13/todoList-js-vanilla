@@ -75,6 +75,16 @@ main {
             box-shadow:0 0 7px rgb(194, 0, 0);
             color: white;
         }
+    }
+
+#edit-btn {
+    background: #1565c0;
+    transition: .2;
+        &:hover {
+            background: #04458f;
+            box-shadow:0 0 7px #04458f;
+            color: white;
+        }
 }
 
 #done-btn {

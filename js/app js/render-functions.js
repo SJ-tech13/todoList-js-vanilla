@@ -47,7 +47,7 @@ const createtaskDOM = (item) => {
     doneButton.setAttribute("title", `${item.text} done.`)
     doneButton.addEventListener("click", () => {
         item.existIn = "done"
-        addDoneTask(item.id)
+        addDoneTask(todoList, doneTodoList, item.id, false)
         deleteTask(todoList, item.id)
         saveList(todoList)
         saveDoneList(doneTodoList)
@@ -57,13 +57,10 @@ const createtaskDOM = (item) => {
     return buildLI
 }
 
-
-
-
-
     //RENDER done list function
 const renderDoneTodoList = () => {
         //filter for search input
+        console.log(doneTodoList)
     const filteredDoneTodoList = doneTodoList.filter((item) => {
         return item.text.toLowerCase().trim().includes(filterconsole.searchTask.toLowerCase().trim())
     })
